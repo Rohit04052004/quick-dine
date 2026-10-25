@@ -1,7 +1,9 @@
 {
-    "name": "QuickDine",
+    "name": "quick-dine",
     "private": true,
     "version": "0.0.0",
+    "description": "QuickDine — a restaurant table booking and reservation platform",
+    "author": "Rohit Chigatapu",
     "type": "module",
     "scripts": {
         "dev": "vite",

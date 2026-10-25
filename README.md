@@ -1,8 +1,10 @@
-# QuickDine Frontend
+# QuickDine
 
-Welcome to the frontend repository for **QuickDine** – a modern, premium table booking and reservation platform designed for a seamless dining experience.
+A modern restaurant table booking and reservation platform. Built by **Rohit Chigatapu**.
 
-This application is built using **React 19**, **Vite**, **TypeScript**, and **Tailwind CSS v4**.
+**Live demo:** https://quick-dine-eta-nine.vercel.app
+
+> Note: this repo is the frontend only. Booking, auth, and admin/owner flows call a separate backend API (via `VITE_API_URL`) that isn't included here, so those flows won't work against the live demo until a backend is deployed and wired up.
 
 ## ✨ Features
 
@@ -22,6 +24,7 @@ This application is built using **React 19**, **Vite**, **TypeScript**, and **Ta
 - **Routing**: React Router v7
 - **Icons**: Lucide React
 - **Notifications**: React Hot Toast
+- **Deployment**: Vercel
 
 ## 🚀 Getting Started
 
@@ -33,8 +36,8 @@ Ensure you have **Node.js** (v18 or higher) and **npm** installed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quickdine-frontend.git
-   cd quickdine-frontend
+   git clone https://github.com/Rohit04052004/quick-dine.git
+   cd quick-dine
    ```
 
 2. Install dependencies:
@@ -68,10 +71,10 @@ Preview the production build locally:
 npm run preview
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to get started.
-
 ## 📄 License
 
 Distributed under the MIT License. See [LICENSE.md](./LICENSE.md) for more details.
+
+## Credits
+
+Adapted from an open-source table booking tutorial project, maintained and extended here by Rohit Chigatapu.
